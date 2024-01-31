@@ -1,0 +1,269 @@
+repo_name: Egaros/YoutubeExplode
+report_id: 3158a9c491104cf1798021db9048de7f
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T07:59:56+00:00'
+requested_by: Tyrrrz
+provider: github
+branch: master
+detected_tools_count: 19
+tools:
+- name: C#
+  description: Simple, general-purpose, object-oriented programming language for the
+    .NET platform
+  website_url: http://csharp.net
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/1015/1200px-C_Sharp_wordmark.svg.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode
+  detection_source: Repo Metadata
+- name: ".NET"
+  description: A free, cross-platform, open source developer platform for building
+    many different types of applications
+  website_url: http://www.microsoft.com/net/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/1014/IoPy1dce_400x400.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode/YoutubeExplode.csproj
+  detection_source: YoutubeExplode/YoutubeExplode.csproj
+  last_updated_by: Oleksii Holub
+  last_updated_on: 2017-04-13 11:35:32.000000000 Z
+- name: ".NET Core"
+  description: An Open Source, General-Purpose Development Platform Maintained by
+    Microsoft and the .NET Community
+  website_url: https://docs.microsoft.com/en-us/dotnet/core/
+  version: '5.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/6403/default_91fc1f0ee315262794273aa1387eaf8fed8436e6.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode.DemoConsole/YoutubeExplode.DemoConsole.csproj
+  detection_source: YoutubeExplode.DemoConsole/YoutubeExplode.DemoConsole.csproj
+  last_updated_by: Oleksii Holub
+  last_updated_on: 2017-04-13 11:35:32.000000000 Z
+- name: ASP.NET Core
+  description: A cross-platform .NET framework for building modern cloud-based web
+    applications on Windows, Mac, or Linux
+  website_url: docs.microsoft.com/en-us/aspnet/core/
+  version: '5.0'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/11331/asp.net-core.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode.DemoConsole/YoutubeExplode.DemoConsole.csproj
+  detection_source: YoutubeExplode.DemoConsole/YoutubeExplode.DemoConsole.csproj
+  last_updated_by: Oleksii Holub
+  last_updated_on: 2017-04-13 11:35:32.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode
+  detection_source: Repo Metadata
+- name: GitHub
+  description: Powerful collaboration, review, and code management for open source
+    and private development projects
+  website_url: https://github.com/
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Code Collaboration & Version Control
+  image_url: https://img.stackshare.io/service/27/default_869c34d29acc794d60ecdd5d2b5bfc042a80a4ec.jpg
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode/YoutubeExplode.csproj
+  detection_source: YoutubeExplode/YoutubeExplode.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-04-12 20:05:51.000000000 Z
+- name: GitHub Actions
+  description: Automate your workflow from idea to production
+  website_url: https://github.com/features/actions
+  open_source: false
+  hosted_saas: true
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/11563/actions.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/.github/workflows/CD.yml
+  detection_source: ".github/workflows/CD.yml"
+  last_updated_by: Alexey Golub
+  last_updated_on: 2021-07-26 22:25:27.000000000 Z
+- name: NuGet
+  description: The package manager for .NET
+  website_url: https://www.nuget.org/
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Package Managers
+  image_url: https://img.stackshare.io/service/2637/6I3oEOP4_400x400.jpg
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode/YoutubeExplode.csproj
+  detection_source: YoutubeExplode/YoutubeExplode.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2017-03-08 13:51:13.000000000 Z
+- name: Visual Studio
+  description: State-of-the-art tools and services that you can use to create great
+    apps for devices, the cloud, and everything in between.
+  website_url: http://msdn.microsoft.com/en-us/vstudio/aa718325.aspx
+  open_source: false
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Integrated Development Environment
+  image_url: https://img.stackshare.io/service/1451/SR2hUhQN.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode.sln
+  detection_source: YoutubeExplode.sln
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-02-10 11:27:02.000000000 Z
+- name: xUnit
+  description: An open source, community-focused unit testing tool
+  website_url: http://xunit.github.io/
+  version: 2.4.1
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/3077/ca5a327feb49ddfe1f4b11548907e5a1_400x400.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode.Tests/YoutubeExplode.Tests.csproj
+  detection_source: YoutubeExplode.Tests/YoutubeExplode.Tests.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2017-03-08 13:51:13.000000000 Z
+- name: AngleSharp
+  description: AngleSharp is the ultimate angle brackets parser library
+  package_url: https://www.nuget.org/AngleSharp
+  version: 0.14.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13174/default_a5e8cd728170fc92850284a53a17ff7deb73f318.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode/YoutubeExplode.csproj
+  detection_source: YoutubeExplode/YoutubeExplode.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-04-12 20:05:51.000000000 Z
+- name: FluentAssertions
+  description: A very extensive set of extension methods that allow you to more naturally
+    specify the expected outcome of a TDD or BDD-style unit tests
+  package_url: https://www.nuget.org/FluentAssertions
+  version: 5.10.3
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13059/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode.Tests/YoutubeExplode.Tests.csproj
+  detection_source: YoutubeExplode.Tests/YoutubeExplode.Tests.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:13:04.000000000 Z
+- name: MaterialDesignColors
+  description: ResourceDictionary instances containing standard Google Material Design
+    swatches
+  package_url: https://www.nuget.org/MaterialDesignColors
+  version: 2.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13885/default_817dbf8c5e292f29c432b0a4218a5fc521aee03d.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode.DemoWpf/YoutubeExplode.DemoWpf.csproj
+  detection_source: YoutubeExplode.DemoWpf/YoutubeExplode.DemoWpf.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:13:04.000000000 Z
+- name: MaterialDesignThemes
+  description: ResourceDictionary instances containing Material Design templates and
+    styles for WPF controls in the MahApps library
+  package_url: https://www.nuget.org/MaterialDesignThemes
+  version: 4.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13770/default_1ec7b75e4d233f940c213992649575a79a936406.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode.DemoWpf/YoutubeExplode.DemoWpf.csproj
+  detection_source: YoutubeExplode.DemoWpf/YoutubeExplode.DemoWpf.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2021-04-18 16:13:04.000000000 Z
+- name: Microsoft.Bcl.AsyncInterfaces
+  description: Provides the IAsyncEnumerable&lt;T&gt; and IAsyncDisposable interfaces
+    and helper types for .NET Standard 2.0
+  package_url: https://www.nuget.org/Microsoft.Bcl.AsyncInterfaces
+  version: 1.1.1
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13612/default_8262e69d511886f07f1af08ca996ce9684bb574b.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode/YoutubeExplode.csproj
+  detection_source: YoutubeExplode/YoutubeExplode.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-10-07 12:27:39.000000000 Z
+- name: Microsoft.SourceLink.GitHub
+  description: Generates source link for GitHub repositories
+  package_url: https://www.nuget.org/Microsoft.SourceLink.GitHub
+  version: 1.0.0
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13339/default_bf5ef28b557cbc9d58bff0b01afc8f39b37cfbc6.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode/YoutubeExplode.csproj
+  detection_source: YoutubeExplode/YoutubeExplode.csproj
+  last_updated_by: Tyrrrz
+  last_updated_on: 2020-12-10 14:27:08.000000000 Z
+- name: System.Text.Json
+  description: Provides high-performance and low-allocating types that serialize objects
+    to JavaScript Object Notation
+  package_url: https://www.nuget.org/System.Text.Json
+  version: 4.7.2
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13031/default_ed36ff3c005af695725e05bb15ea5b1f03de31f3.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode/YoutubeExplode.csproj
+  detection_source: YoutubeExplode/YoutubeExplode.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-10-07 12:27:39.000000000 Z
+- name: System.Threading.Tasks.Extensions
+  description: Provides additional types that simplify the work of writing concurrent
+    and asynchronous code
+  package_url: https://www.nuget.org/System.Threading.Tasks.Extensions
+  version: 4.5.4
+  open_source: false
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/12998/default_aa8a6e377c22dbeff795489a5ab127b1d597b5ed.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode/YoutubeExplode.csproj
+  detection_source: YoutubeExplode/YoutubeExplode.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2020-10-07 12:27:39.000000000 Z
+- name: xunit.runner.visualstudio
+  description: Visual Studio 2012+ Test Explorer runner for the xUnit.net framework
+  package_url: https://www.nuget.org/xunit.runner.visualstudio
+  version: 2.4.3
+  license: Other
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: NuGet Packages
+  image_url: https://img.stackshare.io/package/13260/default_d2db5a200c4fe2d08cbdb2174cc230708973870b.png
+  detection_source_url: https://github.com/Egaros/YoutubeExplode/blob/master/YoutubeExplode.Tests/YoutubeExplode.Tests.csproj
+  detection_source: YoutubeExplode.Tests/YoutubeExplode.Tests.csproj
+  last_updated_by: Alexey Golub
+  last_updated_on: 2021-04-17 14:34:15.000000000 Z
